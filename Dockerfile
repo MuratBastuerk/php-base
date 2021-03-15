@@ -1,4 +1,4 @@
-FROM php:7.4.14-fpm-alpine3.12
+FROM php:8.0.3-fpm-alpine3.12
 
 ARG WITH_XDEBUG=true
 ARG WITH_COMPOSER=true
