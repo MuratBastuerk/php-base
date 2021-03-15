@@ -71,7 +71,7 @@ RUN set -eu; \
 RUN if [ $WITH_XDEBUG = "true" ] ; then \
         set -eu; \
         apk add --no-cache $PHPIZE_DEPS; \
-        pecl install xdebug-2.9.8; \
+        pecl install xdebug; \
         docker-php-ext-enable xdebug; \
         { \
             echo 'xdebug.remote_enable=On'; \
